@@ -22,3 +22,7 @@ A smart contract development project with a smart contract coded to deploy with 
 truffle compile
 truffle migrate --network ganache
 ```
+**_NOTE:_**
+
+- After successful deployment of smart contract, the contract address will be logged in the output and contract abi will be in **_build/contracts/DistributedStorage.json_**
+
