@@ -36,7 +36,7 @@ contract DistributedStorage {
         return true;
     }
 
-    function removeAllFiles() public returns (File[] memory) {
+    function removeAllFiles() public view returns (File[] memory) {
         // Implement some remove functionality if desired
         return allFiles;
     }
