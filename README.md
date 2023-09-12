@@ -4,6 +4,8 @@
 
 A smart contract development project with a smart contract coded to deploy with a script onto any blockchain network configured in this project.
 
+## Deploy smart contract
+
 ### Installation
 
 1. Run [Ganache](https://trufflesuite.com/ganache/) blockchain network
