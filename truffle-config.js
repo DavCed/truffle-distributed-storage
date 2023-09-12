@@ -41,32 +41,12 @@ module.exports = {
     // You should run a client (like ganache, geth, or parity) in a separate terminal
     // tab if you use this network and you must also set the `host`, `port` and `network_id`
     // options below to some value.
-
-    geth: {
-      host: "localhost",
-      port: 8546,
-      network_id: 12345,
-      from: "0x5fd553AF271299fE66Ef1a4d99485D875D292d89",
-    },
-    gethGoerli: {
-      host: "localhost",
-      port: 8551,
-      network_id: 5,
-      from: "0x4C69b792f6975a3bf781475378CFd119DdacE727",
-    },
-    gethSepolia: {
-      host: "localhost",
-      port: 8551,
-      network_id: 11155111,
-      from: "0x7455c955c020273611601081456A5F1876830046",
-    },
     ganache: {
       host: "127.0.0.1",
       port: 7545,
       network_id: 5777,
-      from: "0xD4692af33Df6591F1A55e611EAA2d3c695f4cf9D",
+      from: "", // Account address
     },
-
     // development: {
     //  host: "127.0.0.1",     // Localhost (default: none)
     //  port: 8545,            // Standard Ethereum port (default: none)

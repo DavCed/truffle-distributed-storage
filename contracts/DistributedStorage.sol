@@ -37,16 +37,7 @@ contract DistributedStorage {
     }
 
     function removeAllFiles() public returns (File[] memory) {
-        if (allFiles.length == 1) {
-            delete _files[allFiles[0].cid];
-            allFiles.pop();
-        } else {
-            for (uint256 i = 0; i < allFiles.length; i++) {
-                delete _files[allFiles[i].cid];
-                allFiles.pop();
-            }
-            if (allFiles.length != 0) allFiles.pop();
-        }
+        // Implement some remove functionality if desired
         return allFiles;
     }
 }
