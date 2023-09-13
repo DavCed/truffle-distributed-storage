@@ -16,7 +16,13 @@ A smart contract development project with a smart contract coded to deploy with 
 
 2. Provide an account address from Ganache under network under ganache in the **_truffle-config.js_** file
 
-3. Run truffle commands
+3. Run npm command if truffle has not been install yet, otherwise skip to step 4
+
+```shell
+npm install -g truffle
+```
+
+5. Run truffle commands
 
 ```shell
 truffle compile
